@@ -18,38 +18,41 @@ import Nome from './components/basicos/Nome'
 
 import Formulario from './components/basicos/Formulario'
 
-export default function App(props){
-return(
-    <div className='app'>
+export default function App(props) {
+    return (
+        <div className='app'>
 
 
-<h1>Fundamentos do React</h1>
+            <h1>Fundamentos do React</h1>
 
-<div className='cards'>
+            <div className='cards'>
 
-<Modelo titulo="Formulário" color="orange"><Formulario/></Modelo>
+                <Modelo titulo="Formulário" color="orange"><Formulario /></Modelo>
 
-<Modelo titulo="Utilizando UseSate" color="brown"><Nome/></Modelo>
+                <Modelo titulo="Utilizando UseSate" color="#6A5ACD"><Nome /></Modelo>
 
-<Modelo titulo="Primeiro componente" color="pink"> <Primeiro/> </Modelo>
+                <Modelo titulo="Primeiro componente" color="pink"> <Primeiro /> </Modelo>
 
-        <Modelo titulo="Utilizando Parâmetros" color="yellow"> <ComParametro titulo="Frio em Sp" subtitulo="Neve"/> </Modelo>
-            
-        <Modelo titulo="Utilizando Parâmetros" color="red"> <ComParametro titulo="Calor no Rio de Janeiro" subtitulo="Chuva de verão"/> </Modelo> 
-            
-        <Modelo titulo="Utilizando Parâmetros" color="green"><ComParametro titulo="Start A22" subtitulo="lindos"/></Modelo>
-            
-            <Modelo titulo="Utilizando Fragmentos" color="purple"> <Fragmento/> </Modelo>
-            <Modelo titulo= "Números aleatórios"><NumeroAle  min = {1}   max = {80}/>
-            <NumeroAle min = {10} max = {80}/>
-            <NumeroAle min = {30} max = {80}/>
-            <NumeroAle min = {50} max = {80}/></Modelo>
-           
-</div>
+                <Modelo titulo="Utilizando Parâmetros" color="yellow"> <ComParametro titulo="Frio em Sp" subtitulo="Neve" /> </Modelo>
 
-</div>
+                <Modelo titulo="Utilizando Parâmetros" color="red"> <ComParametro titulo="Calor no Rio de Janeiro" subtitulo="Chuva de verão" /> </Modelo>
+
+                <Modelo titulo="Utilizando Parâmetros" color="green"><ComParametro titulo="Start A22" subtitulo="lindos" /></Modelo>
+
+                <Modelo titulo="Utilizando Fragmentos" color="purple"> <Fragmento /> </Modelo>
+                <Modelo titulo="Números aleatórios" color="#00FA9A"><NumeroAle min={1}  max={80}/></Modelo>
+
+            <Modelo titulo="Números aleatórios" color="brown"><NumeroAle min={10}  max={80}/></Modelo>
+
+            <Modelo titulo="Números aleatórios" color="blue"><NumeroAle min={30}  max={80}/></Modelo>
+
+            <Modelo titulo="Números aleatórios" color="#00ffff"><NumeroAle min={50}  max={80}/></Modelo>
+
+            </div>
+
+        </div>
 
 
 
-)
+    )
 }
