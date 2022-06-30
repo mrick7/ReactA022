@@ -12,7 +12,7 @@ import NumeroAle from './components/basicos/NumeroAle'
 
 import Modelo from './components/Modelo'
 
-import './app.css'
+import './App.css'
 
 import Nome from './components/basicos/Nome'
 
